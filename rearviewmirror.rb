@@ -1,6 +1,5 @@
-
 require 'nagiosharder'
-require 'librato-metrics'
+require 'librato/metrics'
 
 # Ensure we have all the nagios configuration
 nagios_user = ENV['NAGIOS_USER'] || raise('missing NAGIOS_USER')
