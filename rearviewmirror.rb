@@ -74,4 +74,4 @@ site.hostgroups_summary.each do |name, group|
 end
 
 # Flush the queue to Librato
-queue.submit
+$queue.submit
